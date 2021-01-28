@@ -9,7 +9,7 @@ expect {
     exp_continue
 }
 -re ".*sword.*" {
-    exp_send "Tas_hrd741852\r"
+    exp_send "PASWORDSERVER\r"
 }
 }
 interact
