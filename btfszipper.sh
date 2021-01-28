@@ -1,2 +1,2 @@
 #!/bin/bash
-zip -r btfs-$(date +"%Y-%m-%d").zip .btfs
+zip -r btfs-SERVER.zip .btfs
