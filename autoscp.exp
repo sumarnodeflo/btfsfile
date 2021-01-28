@@ -1,5 +1,15 @@
-#!/usr/bin/expect
-        spawn scp -P 22 btfs-DO1NY-$(date +"%Y-%m-%d").zip root@178.128.154.129:/root/.
-        set pass "Tas_hrd741852"
-        expect {
-        password: {send "$pass\r"; exp_continue}
+#!/usr/bin/expect -f
+
+# connect via scp
+    spawn scp -P 22 btfs-DO1NY-$(date +"%Y-%m-%d").zip root@178.128.154.129:/root/.
+#######################
+expect {
+-re ".*es.*o.*" {
+    exp_send "yes\r"
+    exp_continue
+}
+-re ".*sword.*" {
+    exp_send "Tas_hrd741852\r"
+}
+}
+interact
