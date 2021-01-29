@@ -39,7 +39,9 @@ input & Edit cron job:
 sudo crontab -e
 
 FORMAT:
+
 * * * * * /home/sigit/script.sh
+
 1. (* pertama) : menit (isian : 0 – 59)
 2. (* kedua) : jam (isian : 0 – 23)
 3. (* ketiga) : hari dari bulan / tanggal (isian : 1 – 31)
@@ -47,10 +49,13 @@ FORMAT:
 5. (* kelima) : hari dari minggu (isian : 0 – 6) –> 0 = minggu
 
 SETIAP MENIT
+
 * * * * * php /opt/lampp/htdocs/jobs/test.php
 
 SETIAP MINGGU HARI SABTU JAM 12 SIANG
+
 0 12 * * 6 /home/sigit/script.sh
 
 Eksekusi pada jam 9 malam setiap hari kerja (Senin – Jumat):
+
 0 21 * * 1-5 /home/sigit/script.sh
