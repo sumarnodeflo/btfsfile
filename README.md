@@ -17,15 +17,25 @@ PERSIAPAN:
 
 download file autozip.sh:
 ```bash
-https://raw.githubusercontent.com/sumarnodeflo/btfsfile/main/btfszipper.sh
+wget https://raw.githubusercontent.com/sumarnodeflo/btfsfile/main/btfszipper.sh
 ```
 CATATAN: Edit menggunakan NANO nama file *.zip
 
+Menjalankan auto zip :
+```bash
+sh btfszipper.sh
+```
+
 download file autoscp.exp :
 ```bash
-https://raw.githubusercontent.com/sumarnodeflo/btfsfile/main/autoscp.exp
+wget https://raw.githubusercontent.com/sumarnodeflo/btfsfile/main/autoscp.exp
 ```
 CATATAN: Edit menggunakan NANO file *.exp rubah nama zip
+
+Menjalankan autoscp.exp :
+```bash
+expect autoscp.exp
+```
 
 edit crontab:
 crontab -e
