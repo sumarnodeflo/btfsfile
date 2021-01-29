@@ -33,7 +33,7 @@ crontab -e
 ```
 
 
-## CRON JOB
+### PENGETAHUAN CRON JOB
 
 install:
 ```bash
@@ -54,7 +54,7 @@ Format:
 ```bash
 * * * * * /home/sigit/script.sh
 ```
-KETERANGAN CRON JOB:
+Keterangan waktu:
 1. (* pertama) : menit (isian : 0 – 59)
 2. (* kedua) : jam (isian : 0 – 23)
 3. (* ketiga) : hari dari bulan / tanggal (isian : 1 – 31)
