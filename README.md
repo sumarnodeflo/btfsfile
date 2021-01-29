@@ -39,8 +39,9 @@ input & Edit cron job:
 sudo crontab -e
 
 FORMAT:
-
+```bash
 * * * * * /home/sigit/script.sh
+```
 
 1. (* pertama) : menit (isian : 0 – 59)
 2. (* kedua) : jam (isian : 0 – 23)
