@@ -1,9 +1,11 @@
-# btfsfile
+# BTFS
 utk download menggunakan wget 
 untuk menjalan file .sh menggunakan perintah $sh file.sh
 untuk menjalankan file .exp menggunakan perintah $expect file.exp
 
-## AUTOMATIC BACKUP BTFS VIA SCP
+## AUTOMATIC BACKUP FOLDER BTFS VIA SCP KE SERVER LAIN
+
+LANGKAH:
 1. zipp file .btfs
 2. kirim ke server backup via scp
 3. metode diatas dibuat otomatis via crontab
