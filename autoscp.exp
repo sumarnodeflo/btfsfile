@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-# connect via scp
+# connect via scp script by sumarno.deflo@gmail.com
 spawn scp -P 22 btfs-DO1NY.zip root@178.128.154.129:/root/.
 #######################
 expect {
