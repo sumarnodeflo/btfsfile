@@ -12,4 +12,4 @@ expect {
     exp_send "PASWORDSERVER\r"
 }
 }
-interact
+expect eof
