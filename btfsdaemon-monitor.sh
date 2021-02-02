@@ -1,5 +1,3 @@
-# vi /opt/scripts/btfsdaemon-monitor.sh
-
 #!/bin/bash
 serv=btfs daemon
 sstat=stopped
