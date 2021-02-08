@@ -30,11 +30,17 @@ download file autoscp.exp :
 ```bash
 wget https://raw.githubusercontent.com/sumarnodeflo/btfsfile/main/autoscp.exp
 ```
-CATATAN: Edit menggunakan NANO file *.exp rubah nama zip
+CATATAN: Edit menggunakan NANO file *.exp rubah nama zip, user&IP dan juga ganti pasword server tujuan
 
 Menjalankan autoscp.exp :
 ```bash
 expect autoscp.exp
+```
+CATATAN: Edit menggunakan NANO file *.sh rubah nama zip, user&IP dan juga ganti pasword server tujuan
+
+selalu menggunakan autoscp.exp bisa juga menggunakan autoscp.sh :
+```bash
+sh autoscp.sh
 ```
 
 edit crontab:
