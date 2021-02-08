@@ -38,7 +38,7 @@ expect autoscp.exp
 ```
 CATATAN: Edit menggunakan NANO file *.sh rubah nama zip, user&IP dan juga ganti pasword server tujuan
 
-selalu menggunakan autoscp.exp bisa juga menggunakan autoscp.sh :
+selain menggunakan autoscp.exp bisa juga menggunakan autoscp.sh :
 ```bash
 sh autoscp.sh
 ```
