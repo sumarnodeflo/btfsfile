@@ -36,9 +36,18 @@ Menjalankan autoscp.exp :
 ```bash
 expect autoscp.exp
 ```
-CATATAN: Edit menggunakan NANO file *.sh rubah nama zip, user&IP dan juga ganti pasword server tujuan
 
 selain menggunakan autoscp.exp bisa juga menggunakan autoscp.sh :
+
+download file autoscp.sh :
+```bash
+https://raw.githubusercontent.com/sumarnodeflo/btfsfile/main/autoscp.sh
+```
+
+CATATAN: Edit menggunakan NANO file *.sh rubah nama zip, user&IP dan juga ganti pasword server tujuan
+
+Menjalankan script autoscp.sh :
+
 ```bash
 sh autoscp.sh
 ```
