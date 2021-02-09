@@ -74,14 +74,19 @@ install:
 sudo apt-get install cron
 ```
 
-Melihat aktifitas cron:
+Melihat daftar cron job:
 ```bash
-sudo crontab -l
+crontab -l
 ```
 
-input & Edit cron job:
+input / Edit cron job:
 ```bash
-sudo crontab -e
+crontab -e
+```
+
+Menghapus crontab:
+```bash
+crontab -r
 ```
 
 Format:
