@@ -61,6 +61,12 @@ crontab -e
 
 Mengubah hak akses pada filescript.sh:
 ```bash
+chmod 755 btfszipper.sh
+chmod 755 autoscp.sh
+chmod 755 autoscp.exp
+
+// atau bisa menggunakan script dibawah ini
+
 sudo chmod +x btfszipper.sh
 sudo chmod +x autoscp.sh
 sudo chmod +x autoscp.exp
