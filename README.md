@@ -59,13 +59,13 @@ crontab -e
 45 22 * * 0-6 /root/autoscp.exp
 ```
 
-Mengubah hak akses pada file.sh:
+Mengubah hak akses pada filescript.sh:
 ```bash
 sudo chmod +x btfszipper.sh
 sudo chmod +x autoscp.sh
 sudo chmod +x autoscp.exp
 ```
-Lanjutkan hal yang sama untuk script.sh lainya
+Lanjutkan hal yang sama untuk filescript.sh lainnya yang akan dijalankan pada cron job
 
 ### PENGETAHUAN CRON JOB
 
