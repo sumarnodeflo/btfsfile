@@ -12,11 +12,7 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 p='\033[0m' #putih
 
-echo "$Mengaktifkan port yang diperlukan"
-sleep 2
-export PATH=${PATH}:${HOME}/btfs/bin
-sleep 2
-echo "$Open Port Coy$p"
+echo "$Open Port saja$p"
 sleep 2
 ufw allow 5071/tcp
 sleep 2
@@ -100,8 +96,5 @@ ufw allow 8093/tcp
 sleep 2
 echo "$ Port Selesai $p"
 sleep 2
-btfs daemon
-echo "$yellow Install BTFS Step 1 Selesai$p"
-sleep 3
 
 exit
