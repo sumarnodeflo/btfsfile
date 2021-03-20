@@ -12,17 +12,17 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 p='\033[0m' #putih
 
-echo "$green Script Bios13 Mode On.....$p"
+echo "$green SCRIPT CONTABO 30.....$p"
 sleep 2
 wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/install.sh
-echo "$green Install LInux 64bit....$p"
+echo "$green Install btfs on ubuntu 64bit....$p"
 sleep 2
 bash install.sh -o linux -a amd64
 sleep 2
 export PATH=${PATH}:${HOME}/btfs/bin
 sleep 2
 btfs init
-echo "$green Open Port Coy$p"
+echo "$green OPEN FIREWALL PORT.....$p"
 sleep 2
 ufw allow 5071/tcp
 sleep 2
@@ -264,10 +264,10 @@ ufw allow 8113/tcp
 sleep 2
 ufw allow 8114/tcp
 sleep 2
-echo "$port selesai$p"
+echo "$port FINISH$p"
 sleep 2
 btfs daemon
-echo "$yellow sudah terinstall semua$p"
+echo "$yellow FINISH....$p"
 sleep 3
 
 exit
