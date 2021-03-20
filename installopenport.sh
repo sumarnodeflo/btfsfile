@@ -12,7 +12,7 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 p='\033[0m' #putih
 
-echo "$Open Port saja$p"
+echo "$Open FIREWALL OPEN PORT......$p"
 sleep 2
 ufw allow 5071/tcp
 sleep 2
@@ -94,7 +94,7 @@ ufw allow 8092/tcp
 sleep 2
 ufw allow 8093/tcp
 sleep 2
-echo "$ Port Selesai $p"
+echo "$ Port FINISH $p"
 sleep 2
 
 exit
