@@ -12,10 +12,10 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 p='\033[0m' #putih
 
-echo "$install otomatis btfs........$p"
+echo "$green SCRIPT INSTALL BTFS...$p"
 sleep 2
 wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/install.sh
-echo "$Script User Tamvan$p"
+echo "$green SCRIPT ON UBUNTU 64BIT..$p"
 sleep 2
 bash install.sh -o linux -a amd64
 sleep 2
@@ -23,11 +23,11 @@ export PATH=${PATH}:${HOME}/btfs/bin
 sleep 2
 btfs init
 
-echo "$lanjut Run Daemon$p"
+echo "$green RUN DAEMON SERVICE...$p"
 sleep 2
 btfs daemon
 
-echo "$yellow Install BTFS Step 1 Selesai$p"
+echo "$yellow FINISH INSTALL BTFS...$p"
 sleep 3
 
 exit
