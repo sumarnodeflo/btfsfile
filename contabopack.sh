@@ -12,7 +12,7 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 p='\033[0m' #putih
 
-echo "$green Script Bios13 Mode On..........$p"
+echo "$green PAKET CONTABO..........$p"
 sleep 2
 sudo apt update && sudo apt upgrade -y
 echo "$green jika ada pop up allow tekan allow / ijinkan$p"
@@ -97,7 +97,7 @@ pip3 install beautifulsoup4
 sleep 2
 pip3 install soupsieve
 sleep 2
-echo "$yellow Sudah Terinstall Semua$p"
+echo "$yellow FINISH...$p"
 sleep 3
 
 exit
