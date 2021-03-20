@@ -12,10 +12,10 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 p='\033[0m' #putih
 
-echo "$green Script Bios13 Mode On....... $p"
+echo "$green SCRIPT BTFS ON CONTABO 10 USER....... $p"
 sleep 2
 wget https://raw.githubusercontent.com/TRON-US/btfs-binary-releases/master/install.sh
-echo "$installin linux 64bit $p"
+echo "$green script ubuntu 64BIT $p"
 sleep 2
 bash install.sh -o linux -a amd64
 sleep 2
@@ -105,10 +105,10 @@ ufw allow 8092/tcp
 sleep 2
 ufw allow 8093/tcp
 sleep 2
-echo "$ Port Selesai $p"
+echo "$yellow PORT FIREWALL FINISH $p"
 sleep 2
 btfs daemon
-echo "$yellow Install BTFS Step 1 Selesai$p"
+echo "$yellow BTFS FINISH....$p"
 sleep 3
 
 exit
